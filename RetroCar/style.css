@@ -3,7 +3,7 @@
     justify-content: space-around;
     background-color: black;
     color: white;
-    padding-right: 400px ;
+    padding-right: 8vw;
     padding-top: 20px ;
     padding-bottom: 25px;
     cursor: pointer;
@@ -13,10 +13,13 @@
 body{
     margin: 0;
 }
-
+h6 {
+    font-size: 2vw;;
+}
 
 #ww{
     padding-top: 22px;
+   
 }
 
 #q4{
@@ -24,12 +27,10 @@ body{
 }
 
 
-.img{
-    width: 100%;
-}
+
 
 input{
-    width: 300px;
+    width: 30%;
     height: 34px;
 }
 
@@ -45,22 +46,54 @@ input{
 
 @media only screen and (max-width: 1200px) {
     body {
-     width: 1200px;
-     font-size: 10px;
+     
+     font-size: 2vw;
     }
     #header{
-        width: 1200px;
-        font-size: 10px;
+        
+        font-size: 2vw;
     }
 
-    #h1{
-    font-size: 15px;
+    h1{
+    font-size: 1vw;
     }
 
-    #h2{
-        font-size: 15px;
+    h2{
+        font-size: 1vw;
         }
     
+        h6 {
+            font-size: 2vw;;
+        }
+  }
+
+  
+
+  @media only screen and (max-width: 700px) {
+    body {
+    
+     font-size: 1vw;
+    }
+    #header{
+    
+        font-size: 1vw;
+    }
+
+    h1{
+    font-size: 1vw;
+    }
+
+    h2{
+        font-size: 1vw;
+        }
+        h6 {
+            font-size: 1vw;
+            padding: 0.5vw;
+        }
+    #q4text {
+        margin-bottom: 0px;
+        padding-bottom: 18px;
+    }   
   }
 
 .firstpage h1{
@@ -74,7 +107,7 @@ input{
 #q4text{
     margin-top: -150px;
     color: azure;
-    margin-left: -500px;
+    font-size: 3vw;
 }
 
 .block{
