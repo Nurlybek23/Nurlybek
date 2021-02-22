@@ -1,0 +1,3 @@
+# Nurlybek 
+qwerty qwertyui
+qwerty
